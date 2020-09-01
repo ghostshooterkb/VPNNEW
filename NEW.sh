@@ -108,14 +108,3 @@ fi
 /etc/init.d/stunnel4 restart
 
 myip="$(dig +short myip.opendns.com @resolver1.opendns.com)"
-
-echo "Installation has been completed!!"
-echo " "
-echo "--------------------------- Configuration Setup Server -------------------------"
-echo "                                Copyright KBA™                                  "
-echo "--------------------------------------------------------------------------------"
-echo " "
-echo "Server Information"
-echo "   - IP address 	: ${myip}"
-echo "   - Dropbear 		: 80"
-echo "   - Stunnel 		: 443"
