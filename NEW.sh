@@ -1,5 +1,4 @@
 #!/bin/sh
-
 if [[ $EUID -ne 0 ]]; then
    echo "You must be root to do this." 1>&2
    exit 100
@@ -120,5 +119,3 @@ echo "Server Information"
 echo "   - IP address 	: ${myip}"
 echo "   - Dropbear 		: 80"
 echo "   - Stunnel 		: 443"
-echo " "
-echo "create users and enjoy.."
