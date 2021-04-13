@@ -108,3 +108,4 @@ fi
 /etc/init.d/stunnel4 restart
 
 myip="$(dig +short myip.opendns.com @resolver1.opendns.com)"
+exit
